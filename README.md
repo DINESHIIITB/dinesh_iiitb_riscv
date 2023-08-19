@@ -351,6 +351,10 @@ riscv64-unknown-elf-objdump -d 1to9_custom.o |less
 
 <details>
  <summary> Basic verification flow using verilog </summary>
+ 
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/cb8c075e-ded5-4398-b242-35d11ee11e1b)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/ce7bfd67-f640-4a0f-9cff-fdb2423bfef5)
 
 
  </details>	
