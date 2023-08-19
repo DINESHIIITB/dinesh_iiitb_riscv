@@ -323,19 +323,15 @@ sd x5, 32(x6)  # Stores the value in x5 into memory at the address x6 + 32.
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/ebfe5706-dda4-4674-87b0-bf4a9923b0b7)
 
 
-
-
-![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/1b1c838a-82e6-468b-9a91-d6b446bfae50)
-
-![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/d96e9f4e-b180-41c5-81b9-269370c6f43e)
-
-![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/97166daa-3545-49fa-b718-7aebc57f2085)
-
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/8fd65c8b-4149-41bc-a16d-284784203792)
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/083d481a-870a-4767-a5e2-ddbc9cb3dc95)
 
 
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/94d3e103-8858-4a3d-b0c1-48df22b45ca8)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/bdff07ca-e59b-4fb1-bca6-1ca6e3f02fe4)
 
 
 
