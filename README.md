@@ -285,7 +285,29 @@ The long number cant fit in  int so we need to use long long int like the previo
 
 ### Memory allocation for double words
 
+Limited Register Space: Processors have a limited number of registers available for data storage and manipulation. RISC-V, like many other architectures, typically provides a relatively small number of registers (e.g., 32 general-purpose registers). This limited register space is optimized for fast access and execution of instructions but is not sufficient to store all program data and instructions. Memory is used to store both program code (instructions) and data. Registers are used for storing frequently accessed data and intermediate results during program execution. However, there isn't enough space in registers to store the entire program, especially larger programs. Thats we are storing the data in memory 
+
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6414dc6e-96c2-4593-ab20-6e5c232a12ae)
+
+```
+add x3, x1, x2  # Adds the values in registers x1 and x2, stores the result in x3.
+```
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/35ff4875-d3c7-4ebd-b8d5-1b4428bf457d)
+
+```
+ld x7, -16(x8)  # Loads a 64-bit value from memory at the address x8 - 16 into x7.
+
+```
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/a912c7cc-1dd1-41dd-8593-1e00c2f11d94)
+
+```
+sd x5, 32(x6)  # Stores the value in x5 into memory at the address x6 + 32.
+```
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/ebfe5706-dda4-4674-87b0-bf4a9923b0b7)
+
+
 
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/1b1c838a-82e6-468b-9a91-d6b446bfae50)
