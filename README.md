@@ -4,6 +4,8 @@
 
 [Day 0](#day-0)
 
+[Day 1](#day-1)
+
 # week_0
 
 ## Day 0
@@ -222,7 +224,7 @@ RISC V double word can represent  is 0 to ((2^n)-1) unsigned numbers
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/c9f6176a-9ee9-49f1-9420-ced0e99f407c)
 
 
-###64 bit signed integers
+### 64 bit signed integers
 
 By using 2`s compliment we can represent negative numbers
 
@@ -234,14 +236,32 @@ By using 2`s compliment we can represent negative numbers
 
 *The instructions operate on singed and unsigned are called as Base integer instructions RV64I
 
+### Lab for Unsigned integers
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/1bfa0c7f-9ae4-4c8b-9bef-529add8362ac)
 
 
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/621d9104-0479-45ab-9a89-b2b90a12df35)
 
 
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/00c0fad0-e02b-4b3b-9a1a-bd7776fbc9a5)
 
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/e882b0b3-acfa-4bfd-a2d2-405cc985ae58)
 
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6252c1cc-43d1-4884-a70d-4c7fb41a2d45)
 
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/db734e15-14fc-4965-b26f-2df75887fcc0)
 
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/27d54f19-ca18-4c21-bc91-bbaef1c67981)
+
+The long number cant fit in  int so we need to use long long int like the previosu program
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/b31b4f9a-7fe3-4c64-a090-30f18bad9c63)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/0b961fb5-9017-436c-a4b6-08bf4106a1d6)
  
 </details>	
+
+
+## Day 1
 
