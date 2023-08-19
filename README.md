@@ -119,6 +119,9 @@ Optimized assumbly code of using -Ofast
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/de602847-0c85-4661-aef4-eda61a52f00c)
 
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/92575dd5-13c0-4683-bbcc-73eadca3fd2d)
+
+
 
 
 
