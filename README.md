@@ -107,17 +107,18 @@ riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o sum1ton.o  sum1ton.c
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/231be7d9-32e4-4b40-85d4-5f1913260cea)
 
+By searching /main in the command we will get this assembly code
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6cfdecc1-3ece-42ae-9a86-df45adbd0f71)
 
-Optimized assumbly code of using -Ofast
+We got optimized assembly code by using -Ofast
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/39e57177-5a2e-46cd-953b-a6fa001d5420)
 
 
 ### Spike simulation and Debug
 
-Using the spike command we execute and debug
+Using the spike command we can execute and debug
 
 -d : used to debug the main line by line
 
@@ -134,7 +135,7 @@ addi sp, sp, -16: This instruction subtracts 16 from the value in the stack poin
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/92575dd5-13c0-4683-bbcc-73eadca3fd2d)
 
-Debugging sum1ton using spike
+### Debugging sum1ton using spike
 
 (spike) until pc 0 100b0
 
@@ -238,20 +239,26 @@ By using 2`s compliment we can represent negative numbers
 
 ### Lab for Unsigned integers
 
+* The max value of 64 bit unsigned integer is (2^64) -1. So we are checking whether we will get the same value or not if we increase the bit size.
+   
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/1bfa0c7f-9ae4-4c8b-9bef-529add8362ac)
-
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/621d9104-0479-45ab-9a89-b2b90a12df35)
 
+RISC V is 64 bit instruction so for both the codes we got the same value
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/00c0fad0-e02b-4b3b-9a1a-bd7776fbc9a5)
 
+And we are decreasing the value of n , we may get the output or not ,it depends on the whether th evalue is in the rangeof  long long
+
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/e882b0b3-acfa-4bfd-a2d2-405cc985ae58)
 
+CHecking whether we will get negative valuefor unsigned integers or not.
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6252c1cc-43d1-4884-a70d-4c7fb41a2d45)
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/db734e15-14fc-4965-b26f-2df75887fcc0)
 
+Asexpected unsigned integer starts from 0 and we got 0
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/27d54f19-ca18-4c21-bc91-bbaef1c67981)
 
 The long number cant fit in  int so we need to use long long int like the previosu program
@@ -264,4 +271,18 @@ The long number cant fit in  int so we need to use long long int like the previo
 
 
 ## Day 1
+
+
+<details>
+ <summary> Application Binary Interface(ABI) </summary>
+
+
+
+ ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/0e072588-3c65-42cf-8311-223005a2df1e)
+
+
+ 
+</details>	
+
+
 
