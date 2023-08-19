@@ -327,17 +327,31 @@ sd x5, 32(x6)  # Stores the value in x5 into memory at the address x6 + 32.
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/083d481a-870a-4767-a5e2-ddbc9cb3dc95)
 
+ 
+</details>	
+
+<details>
+ <summary> Labwork using ABI function calls </summary>
+
+```
+riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o 1to9_custom.o 1to9_custom.c load.S
+spike pk 1to9_custom.o
+riscv64-unknown-elf-objdump -d 1to9_custom.o |less
+```
+
+ ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6a66b373-be68-4c97-a210-36682bf20f0e)
 
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/94d3e103-8858-4a3d-b0c1-48df22b45ca8)
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/bdff07ca-e59b-4fb1-bca6-1ca6e3f02fe4)
-
-
-
-
  
 </details>	
 
+<details>
+ <summary> Basic verification flow using verilog </summary>
+
+
+ </details>	
 
 
