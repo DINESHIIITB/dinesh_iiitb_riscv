@@ -82,15 +82,45 @@ ls -ltr
 5. -o sum1ton.o: This option specifies the name of the output object file that will be generated after compilation. In this case, the output object file will be named sum1ton.o.
 
 6. sum1ton.c: This is the source C file that you want to compile, named sum1ton.c.
-   
+
+7. -d : This is an option or flag passed to the objdump tool. The -d flag tells objdump to disassemble the contents of the object file, which means it will display the assembly code generated from the binary instructions in the object file.
+8. |: This is a pipe operator, which is used to pass the output of one command as the input to another command.
+9. less: This is a terminal pager program that allows you to view the contents of a file one screen at a time. It's often used to read and scroll through large text outputs.
+10. -Ofast: This is an optimization flag. -Ofast is a high-level optimization level that enables aggressive optimization, potentially sacrificing some level of standard compliance for performance. It's suitable for code where performance is critical.
+11. press q to exit form less program
+
+   the assembly codefor main  has 11 intructions which starts from 10184 to 101ac, increments by 4 bytes for each instruction.
  ```
  riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 ls -ltr sum1ton.o
+riscv64-unknown-elf-objdump -d sum1ton.o
+riscv64-unknown-elf-objdump -d sum1ton.o | less
+riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o sum1ton.o  sum1ton.c
+
 ```
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6ba38814-b5bf-4ef4-be62-52112c2a5bf2)
 
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/231be7d9-32e4-4b40-85d4-5f1913260cea)
+
+
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6cfdecc1-3ece-42ae-9a86-df45adbd0f71)
+
+Optimized assumbly code of using -Ofast
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/39e57177-5a2e-46cd-953b-a6fa001d5420)
+
+
+### Spike simulation and Debug
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/be98da42-8bbd-4b22-90bf-02a09d8af104)
+
+
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/de602847-0c85-4661-aef4-eda61a52f00c)
+
+
+
 
 
 
