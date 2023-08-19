@@ -289,18 +289,33 @@ Limited Register Space: Processors have a limited number of registers available 
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6414dc6e-96c2-4593-ab20-6e5c232a12ae)
 
+1. add Instruction:
+
+    * Mnemonic: add
+    * Syntax: add rd, rs1, rs2
+    * Operation: This instruction adds the values of registers rs1 and rs2 and stores the result in register rd.
 ```
 add x3, x1, x2  # Adds the values in registers x1 and x2, stores the result in x3.
 ```
-
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/35ff4875-d3c7-4ebd-b8d5-1b4428bf457d)
 
+2. ld (Load Doubleword) Instruction:
+
+    * Mnemonic: ld
+    * Syntax: ld rd, offset(rs1)
+    * Operation: This instruction loads a 64-bit (doubleword) value from memory at the address calculated as the sum of the value in register rs1 and the signed 12-bit offset. It loads the value into register rd.
 ```
 ld x7, -16(x8)  # Loads a 64-bit value from memory at the address x8 - 16 into x7.
 
 ```
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/a912c7cc-1dd1-41dd-8593-1e00c2f11d94)
 
+
+3. sd (Store Doubleword) Instruction:
+
+    * Mnemonic: sd
+    * Syntax: sd rs2, offset(rs1)
+    * Operation: This instruction stores the value in register rs2 into memory at the address calculated as the sum of the value in register rs1 and the signed 12-bit offset. It stores a 64-bit (doubleword) value into memory.
 ```
 sd x5, 32(x6)  # Stores the value in x5 into memory at the address x6 + 32.
 ```
