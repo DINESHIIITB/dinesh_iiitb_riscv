@@ -214,6 +214,26 @@ core   0: 0x00000000000100d8 (0x00008067) ret
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/be98da42-8bbd-4b22-90bf-02a09d8af104)
 
 
+###64 bit unsigned integers
+
+
+RISC V double word can represent  is 0 to ((2^n)-1) unsigned numbers
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/c9f6176a-9ee9-49f1-9420-ced0e99f407c)
+
+
+###64 bit signed integers
+
+By using 2`s compliment we can represent negative numbers
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/42b09686-1a05-423d-adeb-bc468f90acf4)
+
+* for positive numbers MSB is 0
+* for nagative numbers MSB is 1
+* RISC V double word can represent  is 0 to ((2^n-1)-1) for positive and -1 to -2^(n-1).
+
+*The instructions operate on singed and unsigned are called as Base integer instructions RV64I
+
 
 
 
