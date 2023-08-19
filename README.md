@@ -111,7 +111,7 @@ By searching /main in the command we will get this assembly code
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6cfdecc1-3ece-42ae-9a86-df45adbd0f71)
 
-We got optimized assembly code by using -Ofast
+We got the optimized assembly code by using -Ofast
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/39e57177-5a2e-46cd-953b-a6fa001d5420)
 
@@ -253,9 +253,10 @@ And we are decreasing the value of n , we may get the output or not ,it depends 
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/e882b0b3-acfa-4bfd-a2d2-405cc985ae58)
 
-CHecking whether we will get negative valuefor unsigned integers or not.
+
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6252c1cc-43d1-4884-a70d-4c7fb41a2d45)
 
+Checking whether we will get negative valuefor unsigned integers or not.
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/db734e15-14fc-4965-b26f-2df75887fcc0)
 
 Asexpected unsigned integer starts from 0 and we got 0
@@ -276,9 +277,30 @@ The long number cant fit in  int so we need to use long long int like the previo
 <details>
  <summary> Application Binary Interface(ABI) </summary>
 
+ ### Introduction
 
+* Programs can access the register via system calls this interface is called as Application Binary interface. The RISC-V ABI, like other ABIs, specifies rules and conventions for how programs interact with the hardware and the operating system in the RISC-V architecture. 
 
  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/0e072588-3c65-42cf-8311-223005a2df1e)
+
+### Memory allocation for double words
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6414dc6e-96c2-4593-ab20-6e5c232a12ae)
+
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/1b1c838a-82e6-468b-9a91-d6b446bfae50)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/d96e9f4e-b180-41c5-81b9-269370c6f43e)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/97166daa-3545-49fa-b718-7aebc57f2085)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/8fd65c8b-4149-41bc-a16d-284784203792)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/083d481a-870a-4767-a5e2-ddbc9cb3dc95)
+
+
+
+
 
 
  
