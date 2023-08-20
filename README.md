@@ -428,4 +428,10 @@ Makerchip is an integrated development environment (IDE) primarily designed for 
  <summary> Sequential Logic in TL verilog using makerchip </summary>
 
  
+* Fibbonacci series
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/be461001-bc30-45c1-94aa-bdf5e788380c)
+
+
+ 
  </details>	
