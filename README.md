@@ -422,19 +422,10 @@ Makerchip is an integrated development environment (IDE) primarily designed for 
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22a93a69-c43a-4111-af55-d06796ff4009)
 
+ </details>	
 
-
-
-
-
-
-
-
-
-
-
-
-
+<details>
+ <summary> Sequential Logic in TL verilog using makerchip </summary>
 
  
  </details>	
