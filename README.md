@@ -420,7 +420,7 @@ Makerchip is an integrated development environment (IDE) primarily designed for 
 
 * Exercise 7 calculator
 
-![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22a93a69-c43a-4111-af55-d06796ff4009)
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/cf360ee4-7cd9-442b-b6ee-64b02ad06562)
 
  </details>	
 
@@ -430,7 +430,25 @@ Makerchip is an integrated development environment (IDE) primarily designed for 
  
 * Fibbonacci series
 
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/cf9f6ac4-3fbe-47c2-a4ab-f28d507e5248)
+
+
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/be461001-bc30-45c1-94aa-bdf5e788380c)
+
+ 
+* Counter
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/75f6e030-8e5d-42b5-ae44-aff1c5e65055)
+
+* Calculator that remembers the last value
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/2fa420dc-6459-49d8-a002-a772db7af18e)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/2edd8f63-02e7-4b4c-a678-e7e42504f5be)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/fffed7a9-a0cf-46e9-8deb-eb0740a86678)
+
+
 
 
  
