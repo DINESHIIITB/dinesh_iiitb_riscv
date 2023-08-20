@@ -449,6 +449,25 @@ Makerchip is an integrated development environment (IDE) primarily designed for 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/fffed7a9-a0cf-46e9-8deb-eb0740a86678)
 
 
+ </details>	
+
+
+<details>
+ <summary> pipeline </summary>
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/daea94a7-82fe-4215-a276-eca8753da9ac)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/9dfcaf37-cc61-4d89-9d8c-b7bf84db3a70)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/4b8a49b7-ff19-476f-9b13-3c4550c78136)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/68db83f2-8e55-4e1f-8a9f-326656b6f6cb)
+
+
+
+
+
+
 
 
  
