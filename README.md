@@ -2,13 +2,13 @@
 
 [week 0](#week_0)
 
-[Day 0](#day-0)
-
 [Day 1](#day-1)
+
+[Day 2](#day-2)
 
 # week_0
 
-## Day 0
+## Day 1
 
 <details>
  <summary> Introduced to RISC-V </summary>
@@ -271,7 +271,7 @@ The long number cant fit in  int so we need to use long long int like the previo
 </details>	
 
 
-## Day 1
+## Day 2
 
 
 <details>
@@ -351,6 +351,14 @@ riscv64-unknown-elf-objdump -d 1to9_custom.o |less
 
 <details>
  <summary> Basic verification flow using verilog </summary>
+
+vim rv32im.sh has set of commands that will convert into hexfile,iverilog -o testbench.vvp: This is the Icarus Verilog compiler, used to compile a Verilog testbench (testbench.v) along with the picorv32.v file. This step likely sets up a simulation environment for testing the RISC-V program.chmod -x testbench.vvp: Similar to before, this command removes execute permissions from the resulting Verilog simulation file (testbench.vvp).vvp -N testbench.vvp: This command runs the simulation using the compiled Verilog testbench, likely to test the RISC-V program's behavior.
+
+```
+vim rv32im.sh
+chmod rv32im.sh
+./rv32im.sh
+```
  
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/cb8c075e-ded5-4398-b242-35d11ee11e1b)
 
@@ -360,3 +368,53 @@ riscv64-unknown-elf-objdump -d 1to9_custom.o |less
  </details>	
 
 
+
+## Day 3
+
+<details>
+ <summary> Combinational Logic in TL verilog using makerchip </summary>
+
+ ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/3803cf2b-628b-4fa7-9f4f-db68f7f23b53)
+
+ ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/7c8fbd2e-b7e3-4058-a39e-be845e93a48e)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/da0cd7bc-40de-4fbc-9bf3-88039d9fdca0)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/a790a68b-63b7-415b-a2d3-9f506d8e8eab)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/7566dafd-b920-4a0b-ae70-2d2e71bef13f)
+
+Makerchip is an integrated development environment (IDE) primarily designed for digital design and hardware description language (HDL) development. It's a web-based platform that allows users to create, simulate, and test digital circuits and systems using popular HDLs like Verilog and SystemVerilog. Here's an explanation of the key features and components of Makerchip:
+
+1. Editor: Makerchip provides a code editor where you can write and edit your hardware description code. It supports common HDLs like Verilog, SystemVerilog, and Chisel.
+2. Simulation: Makerchip includes a built-in simulator that lets you simulate and test your digital designs. You can create testbenches, set input values, and observe the behavior of your circuits in real-time.
+3. Waveform Viewer: The IDE has a waveform viewer that allows you to visualize the waveforms generated during simulation. This is helpful for debugging and verifying the correctness of your designs.
+4. Block Diagram Editor: Makerchip features a block diagram editor that enables you to create high-level block diagrams of your digital systems. You can connect different components and generate structural code automatically.
+5. Code Generation: Makerchip can automatically generate Verilog/SystemVerilog code from your block diagram designs. This feature simplifies the process of converting your high-level designs into HDL code.
+6. Collaboration: The IDE allows for collaboration by sharing projects and designs with others. You can work on projects with team members and share your work with the Makerchip community.
+7. Tutorials and Examples: Makerchip provides a set of tutorials and examples to help users learn and get started with digital design and HDL programming. These resources are valuable for beginners.
+
+* Execrsise 1 pythagorean theorem
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/e52a868e-1a1a-448a-8358-fa72aea1c1ae)
+
+* Exercise 2 Inverter
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/620c7194-a320-4b83-a9f0-b9d512a6a9d3)
+
+* Exercise 3 Logic gates
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/39103251-b832-48e6-9df7-ea1e8ec2e164)
+
+
+
+
+
+
+
+
+
+
+
+ 
+ </details>	
