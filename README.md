@@ -406,6 +406,26 @@ Makerchip is an integrated development environment (IDE) primarily designed for 
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/39103251-b832-48e6-9df7-ea1e8ec2e164)
 
+* Exercise 4 Vectors
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/47d5be3c-520d-4c10-b9ea-6b3e8eaff9ad)
+
+* Exercise 5 1 bit-Mux
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/026e299b-9b5e-4620-8b6c-820623b5a882)
+
+* Exercise 6 8bit-Mux
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/5f328b3f-4aab-4948-884c-283dee21d009)
+
+* Exercise 7 calculator
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22a93a69-c43a-4111-af55-d06796ff4009)
+
+
+
+
+
 
 
 
