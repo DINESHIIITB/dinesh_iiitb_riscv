@@ -677,9 +677,22 @@ There are 6 instructions type in RISC-V :
    ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22c1a2d0-aeb7-4a73-8e35-88f073834b35)
 
 
-* Instruction Immediate Decode 1
+* Instruction  Decode 1
 
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6b90edd6-7e4d-4dc5-a2ac-127502d53d9b)
+
+
+
+
+* Instruction  Decode 2
+
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/3398e894-18d5-4325-82be-5c31b61ec83c)
+
+* Instruction Field Decode
+  
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/57709824-dc76-4820-bd44-afd87838cafb)
+
 
   
 
@@ -687,11 +700,19 @@ There are 6 instructions type in RISC-V :
 
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/802b3c72-4757-4c9d-9e58-0c57b48ab361)
 
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/03dac242-4936-4418-b416-7d0a9a79b1d5)
+
+
   
  </details>	
 
 
-   
+
+<details>
+ <summary> RISC-V control logic </summary>
+
+
+  </details>	
 
 
 
