@@ -696,6 +696,14 @@ There are 6 instructions type in RISC-V :
 
   
 
+ </details>	
+
+
+
+<details>
+ <summary> RISC-V control logic </summary>
+
+
 * Register File Read
 
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/802b3c72-4757-4c9d-9e58-0c57b48ab361)
@@ -704,13 +712,6 @@ There are 6 instructions type in RISC-V :
 
 
   
- </details>	
-
-
-
-<details>
- <summary> RISC-V control logic </summary>
-
 
   </details>	
 
