@@ -562,3 +562,16 @@ module top(input wire clk, input wire reset, input wire [31:0] cyc_cnt, output w
 
   
  </details>	
+
+
+  <details>
+ <summary> wrap up </summary>
+
+
+
+
+
+
+
+   
+ </details>	
