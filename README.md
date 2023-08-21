@@ -605,6 +605,9 @@ Program Counter:
 
 Instruction Fetch logic 1
 
+
+  
+
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/0861b642-3dfb-494e-9502-1d6b0921ab99)
 
 
@@ -613,11 +616,6 @@ Instruction Fetch logic 1
 
 
 
-  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/e307f0ed-1ada-43b3-ad72-7a0f31ad1e58)
-
-  VIZ
-
-  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22ef977c-7a29-4e97-92f9-5db3df834cd1)
 
   
 Instruction Fetch logic 2
@@ -626,8 +624,12 @@ Instruction Fetch logic 2
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/7cf0c16b-b66c-4e7a-8eff-ece350d47f8f)
 
   
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/e307f0ed-1ada-43b3-ad72-7a0f31ad1e58)
 
-  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/a32c3301-d6a4-42f9-8cb4-a9a8d291271c)
+  VIZ
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22ef977c-7a29-4e97-92f9-5db3df834cd1)
+
 
 
 
