@@ -492,6 +492,15 @@ https://www.makerchip.com/sandbox/#
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/d2d30449-8e49-4c1b-bec8-eec3f46b50fd)
 
+Definition of macro  m4_makerchip_module:
+
+module top(input wire clk, input wire reset, input wire [31:0] cyc_cnt, output wire passed, output wire failed);
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/a5904a8b-25a8-4172-adc9-522d78692a29)
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/4d72ae67-c083-4aa4-bb8e-dfd57a35cfca)
+
+
 
   
  </details>	
