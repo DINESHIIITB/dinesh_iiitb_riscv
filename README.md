@@ -374,6 +374,46 @@ chmod rv32im.sh
 <details>
  <summary> Combinational Logic in TL verilog using makerchip </summary>
 
+Combinational logic refers to digital circuits or systems where the output is solely determined by the current combination of input values, without any regard for past input values or the passage of time. Combinational logic circuits perform fixed logic functions, and their behavior is described entirely by a truth table or Boolean equations
+
+Transaction-Level Verilog (TL-Verilog) is a high-level hardware description language (HDL) extension that simplifies the process of designing digital systems, particularly for complex and high-level abstractions. It's an innovative approach to hardware description, designed to make digital design more accessible, efficient, and scalable. Here's a breakdown of the key features and concepts of TL-Verilog:
+
+1. Abstraction Layers:
+        TL-Verilog introduces three abstraction layers for describing digital systems: behavior, transaction, and cycle-accurate.
+        The behavior layer allows designers to specify high-level operations without worrying about the implementation details.
+        The transaction layer focuses on data transfers between blocks, making it easier to model communication between different components.
+        The cycle-accurate layer provides precise timing control for low-level implementation details.
+2. Synchronous and Asynchronous Blocks:
+        TL-Verilog allows you to define both synchronous and asynchronous blocks within your design.
+        Synchronous blocks operate on a clock signal and follow standard digital design principles.
+        Asynchronous blocks can operate independently of the clock signal, making them suitable for modeling complex, concurrent behaviors.
+
+3. Pipeline Stages:
+        TL-Verilog introduces a pipeline abstraction for modeling pipelined systems easily.
+        You can specify pipeline stages and the data flow between them, simplifying the design of processors and other pipelined structures.
+
+4. Implicit and Explicit State Machines:
+        TL-Verilog supports both implicit and explicit state machines.
+        Implicit state machines are described naturally through high-level constructs, making them more readable and maintainable.
+        Explicit state machines provide more control over the state transitions, which can be necessary for certain designs.
+
+5. Interfaces:
+        TL-Verilog uses interfaces to define the communication between blocks.
+        Interfaces encapsulate signals and methods, promoting modularity and reusability.
+        This is particularly helpful for modeling complex interconnects or standard interfaces like AXI or Wishbone.
+        
+6. No RTL Coding:
+        TL-Verilog eliminates the need for low-level RTL coding (Register Transfer Level), such as declaring flip-flops or describing how data propagates through gates.This higher level of abstraction simplifies the design process and reduces the risk of coding errors.
+   
+8. Automatic Pipelining and Parallelism:
+        TL-Verilog can automatically infer pipeline stages and parallelism in your design, optimizing performance while maintaining high-level readability.
+   
+10. Simulation and Synthesis:
+        TL-Verilog code can be simulated and synthesized, making it suitable for both early-stage design exploration and final hardware implementation.
+
+
+    
+
  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/3803cf2b-628b-4fa7-9f4f-db68f7f23b53)
 
  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/7c8fbd2e-b7e3-4058-a39e-be845e93a48e)
