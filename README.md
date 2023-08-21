@@ -6,6 +6,12 @@
 
 [Day 2](#day-2)
 
+[Day 3](#day-3)
+
+[Day 4](#day-4)
+
+[Day 5](#day-5)
+
 # week_0
 
 ## Day 1
@@ -520,7 +526,7 @@ https://www.makerchip.com/sandbox/#
   
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/11353d1b-9047-445c-a0e5-4afacc9f5c44)
 
-* Calculator using  pipelining and output is zero for one cycle and out for one cycle
+* Calculator using  pipelining and output is zero for one cycle and out for one cycle (2 Cycle calculator)
   
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/ddaeb6d7-f52a-478f-a88c-e0873400b660)
 
@@ -541,9 +547,11 @@ Definition of macro  m4_makerchip_module:
 
 module top(input wire clk, input wire reset, input wire [31:0] cyc_cnt, output wire passed, output wire failed);
 
-* 
+* Distance Acculmulator using valid
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/a5904a8b-25a8-4172-adc9-522d78692a29)
+
+* calculatot using valid
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/4d72ae67-c083-4aa4-bb8e-dfd57a35cfca)
 
