@@ -555,6 +555,9 @@ module top(input wire clk, input wire reset, input wire [31:0] cyc_cnt, output w
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/4d72ae67-c083-4aa4-bb8e-dfd57a35cfca)
 
+* Calculator with Single Value Memory
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/456c87fb-1ac9-4d27-b62c-8ecf553e46f6)
 
 
   
