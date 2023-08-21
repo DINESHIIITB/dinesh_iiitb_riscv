@@ -516,8 +516,12 @@ https://www.makerchip.com/sandbox/#
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/66c96c8b-57ac-443a-b91b-c45299193e66)
 
+* Calculator using  pipelining
+  
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/11353d1b-9047-445c-a0e5-4afacc9f5c44)
 
+* Calculator using  pipelining and output is zero for one cycle and out for one cycle
+  
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/ddaeb6d7-f52a-478f-a88c-e0873400b660)
 
  
@@ -536,6 +540,8 @@ https://www.makerchip.com/sandbox/#
 Definition of macro  m4_makerchip_module:
 
 module top(input wire clk, input wire reset, input wire [31:0] cyc_cnt, output wire passed, output wire failed);
+
+* 
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/a5904a8b-25a8-4172-adc9-522d78692a29)
 
