@@ -597,7 +597,16 @@ The Micro architecture for the RISC-V implementation is shown here
 9. Branch:
         The Branch unit handles conditional branching operations in the processor, including conditional jumps (branches) based on the evaluation of certain conditions.It calculates the target address for a branch instruction and determines whether the branch should be taken or not, typically based on the result of a comparison operation.
 
-Program Counter:
+
+  
+ </details>	
+
+
+<details>
+ <summary> Fetch and Decode </summary>
+
+
+1. Program Counter:
 
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/30364085-4f47-43a8-a948-2ade8e07631c)
 
@@ -618,7 +627,7 @@ Instruction Fetch logic 1
 
 
   
-Instruction Fetch logic 2
+2. Instruction Fetch logic 2
 
 
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/7cf0c16b-b66c-4e7a-8eff-ece350d47f8f)
@@ -631,9 +640,47 @@ Instruction Fetch logic 2
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22ef977c-7a29-4e97-92f9-5db3df834cd1)
 
 
+3. Decode
+
+There are 6 instructions type in RISC-V :
+
+    1. Register (R) type :
+          * These instructions operate on values stored in registers.
+          * They typically involve two source registers and one destination register.
+          * Examples include arithmetic operations like addition and subtraction, logical operations like bitwise AND and OR, and more.
+          
+    2. Immediate (I) type :
+          * These instructions use an immediate value (a constant) along with a register operand.
+          * Common operations include immediate arithmetic (e.g., addi for adding an immediate value to a register), logical (e.g., andi for bitwise AND with an immediate), and branching with immediate conditions.
+          
+    3. Store (S) type :
+          * Store instructions are used for storing data from a register into memory.
+          * They involve a source register, a base address register, and an immediate offset for memory addressing.
+          * Examples include sw (store word) and sb (store byte).
+    4. Branch (B) type :
+          * Branch instructions are used for control flow operations, such as conditional branches and jumps.
+          * They often compare two values and, based on the result, either perform a conditional branch or an unconditional jump.
+          * Examples include beq (branch if equal) and bne (branch if not equal).
+    5. Upper immediate (U) type:
+          * These instructions provide a way to set the upper bits of a register with an immediate value.
+          * Typically used for initializing registers with constants.
+          * Examples include lui (load upper immediate) and auipc (add upper immediate to PC).
+    6. Jump (J) type :
+          * Jump instructions are used for unconditional jumps to a new address.
+          * They typically involve an immediate value that specifies the jump target.
+          * Examples include jal (jump and link), which is often used for function calls.
 
 
+   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/def6316b-8829-4d6c-8e3c-737724a79732)
 
+
+   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22c1a2d0-aeb7-4a73-8e35-88f073834b35)
+
+
+* Instruction Immediate Decode
+
+  
+ </details>	
 
 
    
