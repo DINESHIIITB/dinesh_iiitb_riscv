@@ -677,7 +677,15 @@ There are 6 instructions type in RISC-V :
    ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22c1a2d0-aeb7-4a73-8e35-88f073834b35)
 
 
-* Instruction Immediate Decode
+* Instruction Immediate Decode 1
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/6b90edd6-7e4d-4dc5-a2ac-127502d53d9b)
+
+  
+
+* Register File Read
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/802b3c72-4757-4c9d-9e58-0c57b48ab361)
 
   
  </details>	
