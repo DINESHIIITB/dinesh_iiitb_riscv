@@ -510,7 +510,8 @@ https://www.makerchip.com/sandbox/#
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22228006-fddd-4972-be31-0550cdd200f2)
 
-
+* error conitions with pipeline
+  
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/69e6780c-7000-477c-a422-08433c35a4df)
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/66c96c8b-57ac-443a-b91b-c45299193e66)
