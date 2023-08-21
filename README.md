@@ -603,9 +603,15 @@ Program Counter:
 
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/b6da83bc-ee36-4ee0-a4d4-3e36a4e4cc1c)
 
-  Fetch
+Instruction Fetch logic 1
 
-  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/a32c3301-d6a4-42f9-8cb4-a9a8d291271c)
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/0861b642-3dfb-494e-9502-1d6b0921ab99)
+
+
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/fe810397-bd99-4d51-a681-127b49e4e748)
+
+
 
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/e307f0ed-1ada-43b3-ad72-7a0f31ad1e58)
 
@@ -613,10 +619,16 @@ Program Counter:
 
   ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22ef977c-7a29-4e97-92f9-5db3df834cd1)
 
+  
+Instruction Fetch logic 2
 
-  Instruction Fetch
 
-  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/80933473-a21d-4957-be7b-e9b3cb2fdd20)
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/7cf0c16b-b66c-4e7a-8eff-ece350d47f8f)
+
+  
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/a32c3301-d6a4-42f9-8cb4-a9a8d291271c)
+
 
 
 
