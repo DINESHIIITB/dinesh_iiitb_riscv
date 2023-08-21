@@ -597,3 +597,32 @@ The Micro architecture for the RISC-V implementation is shown here
 9. Branch:
         The Branch unit handles conditional branching operations in the processor, including conditional jumps (branches) based on the evaluation of certain conditions.It calculates the target address for a branch instruction and determines whether the branch should be taken or not, typically based on the result of a comparison operation.
 
+Program Counter:
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/30364085-4f47-43a8-a948-2ade8e07631c)
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/b6da83bc-ee36-4ee0-a4d4-3e36a4e4cc1c)
+
+  Fetch
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/a32c3301-d6a4-42f9-8cb4-a9a8d291271c)
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/e307f0ed-1ada-43b3-ad72-7a0f31ad1e58)
+
+  VIZ
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/22ef977c-7a29-4e97-92f9-5db3df834cd1)
+
+
+  Instruction Fetch
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/80933473-a21d-4957-be7b-e9b3cb2fdd20)
+
+
+
+
+
+   
+
+
+
