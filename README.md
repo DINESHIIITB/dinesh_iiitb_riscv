@@ -744,3 +744,15 @@ add this line to the previous code to test it
 
 
 
+## Day 5  
+
+<details>
+ <summary>  Complete Pipelined RISC-V CPU Micro-architecture</summary
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/e5c0ea66-ce9b-479e-9309-74a95bfddf2b)
+
+
+
+  </details>	
+
+
