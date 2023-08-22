@@ -724,7 +724,21 @@ There are 6 instructions type in RISC-V :
 
 * Register File Write
 
-  
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/b82a9b0f-7114-462b-8b73-3fbb31ce6682)
+
+
+* Branch Instructions
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/4311d15c-3d12-4ea8-858c-8e6413f0913c)
+
+* Testbench
+
+add this line to the previous code to test it
+  *passed = |cpu/xreg[10]>>5$value == (1+2+3+4+5+6+7+8+9) ;
+
+  ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/1b8fca7e-c330-423e-804b-4e621f4bc81d)
+
+
 
   </details>	
 
