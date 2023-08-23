@@ -748,6 +748,8 @@ add this line to the previous code to test it
 
 <details>
  <summary>  Complete Pipelined RISC-V CPU Micro-architecture</summary
+
+                                                             
 ```
  \m4_TLV_version 1d: tl-x.org
 \SV
@@ -1040,6 +1042,14 @@ add this line to the previous code to test it
 * CPU
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/3f1cc49c-58de-42c9-94c1-43414b9ac866)
+
+* VIZ
+
+
+![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/329b699d-7edc-492f-b520-d8cfb786ad08)
+
+
+* OUTPUT
 
 ![image](https://github.com/DINESHIIITB/dinesh_iiitb_riscv/assets/140998565/4fb1676d-d6e4-48ad-bfc2-c0c0273a9c7c)
 
