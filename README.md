@@ -1058,3 +1058,9 @@ add this line to the previous code to test it
   </details>	
 
 
+
+## References  
+1. https://www.vsdiat.com
+2. https://github.com/stevehoover/RISC-V_MYTH_Workshop
+3. http://makerchip.com/sandbox/
+
